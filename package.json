@@ -1,6 +1,6 @@
 {
 	"name": "titanium.maythe4th",
-	"version": "1.0.0-1",
+	"version": "1.0.0-2",
 	"description": "May the Fourth be with you always",
 	"main": "index.js",
 	"scripts": {
