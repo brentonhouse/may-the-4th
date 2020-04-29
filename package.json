@@ -1,0 +1,41 @@
+{
+	"name": "titanium.maythe4th",
+	"version": "1.0.0-1",
+	"description": "May the Fourth be with you always",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint ./app",
+		"prebuild": "ti sdk install",
+		"clean": "rm -rfv build && rm -rfv i18n && rm -rfv platform && rm -rfv Resources",
+		"build:ios:adhoc": "ti build -p ios --build-only --log-level trace --output-dir './dist' --target dist-adhoc",
+		"build": "npm run build:ios && npm run build:android",
+		"build:ios": "ti build -p ios --build-only --log-level trace",
+		"build:android": "ti build -p android --build-only --log-level trace"
+	},
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {},
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://brenton.house"
+	},
+	"repository": {
+		"type": "git",
+		"url": "github:brentonhouse/template-test-01"
+	},
+	"bugs": {
+		"url": "https://github.com/brentonhouse/template-test-01/issues",
+		"email": "brenton.house@gmail.com"
+	},
+	"private": true,
+	"keywords": [
+		"titanium",
+		"mobile",
+		"alloy",
+		"appcelerator",
+		"axway",
+		"amplify"
+	]
+}

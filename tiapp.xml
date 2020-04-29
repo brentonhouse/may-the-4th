@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+	<id>axwaydev.maythe4th</id>
+	<name>May the 4th</name>
+	<version>1.0.0.1</version>
+	<publisher>Axway Inc.</publisher>
+	<url>https://www.axway.com</url>
+	<description />
+	<copyright>2019 Axway Inc.</copyright>
+	<icon>appicon.png</icon>
+	<fullscreen>false</fullscreen>
+	<navbar-hidden>false</navbar-hidden>
+	<analytics>true</analytics>
+	<guid>30bb3d2d-31a9-414b-8ba8-d5aae23d7cdb</guid>
+	<property name="ti.ui.defaultunit" type="string">dp</property>
+	<property name="run-on-main-thread" type="bool">true</property>
+	<ios>
+		<enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+		<use-app-thinning>true</use-app-thinning>
+		<default-background-color>#000000</default-background-color>
+		<plist>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>1.0.0.1</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.0</string>
+				<key>UISupportedInterfaceOrientations~iphone</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+				</array>
+				<key>UISupportedInterfaceOrientations~ipad</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+				</array>
+				<key>UIRequiresPersistentWiFi</key>
+				<false />
+				<key>UIPrerenderedIcon</key>
+				<false />
+				<key>UIStatusBarHidden</key>
+				<false />
+				<key>UIStatusBarStyle</key>
+				<string>UIStatusBarStyleDefault</string>
+			</dict>
+		</plist>
+	</ios>
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+		<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100000001">
+		</manifest>
+	</android>
+	<modules>
+	</modules>
+	<deployment-targets>
+		<target device="android">true</target>
+		<target device="ipad">true</target>
+		<target device="iphone">true</target>
+	</deployment-targets>
+	<sdk-version>9.0.1.GA</sdk-version>
+	<plugins>
+		<plugin version="1.0">ti.alloy</plugin>
+	</plugins>
+</ti:app>
