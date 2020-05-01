@@ -12,7 +12,7 @@ if (OS_IOS) {
 	matrix = matrix.rotate(50, 1, 0, 0);
 
 	// Scale the image down to fit
-	matrix = matrix.scale(0.8, 0.8);
+	matrix = matrix.scale(0.7, 0.7);
 
 	// Apply the transformation
 	$.wrapper.transform = matrix;
@@ -39,7 +39,7 @@ const executeAnimation1 = () => {
 
 	const animation = Ti.UI.createAnimation({
 		opacity:  1,
-		duration: 8000,
+		duration: 6000,
 		curve:    Ti.UI.ANIMATION_CURVE_LINEAR,
 	});
 
@@ -102,7 +102,7 @@ const executeAnimation3 = () => {
 	// Animation to scroll the text up
 	const animation = Ti.UI.createAnimation({
 		top:      -1400,
-		duration: 130000,
+		duration: 120000,
 		curve:    Ti.UI.ANIMATION_CURVE_LINEAR,
 	});
 
