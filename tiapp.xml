@@ -2,7 +2,7 @@
 <ti:app xmlns:ti="http://ti.appcelerator.org">
 	<id>axwaydev.maythe4th</id>
 	<name>May the 4th</name>
-	<version>1.0.0.4</version>
+	<version>1.0.0.5</version>
 	<publisher>Axway Inc.</publisher>
 	<url>https://www.axway.com</url>
 	<description />
@@ -21,7 +21,7 @@
 		<plist>
 			<dict>
 				<key>CFBundleVersion</key>
-				<string>1.0.0.4</string>
+				<string>1.0.0.5</string>
 				<key>CFBundleShortVersionString</key>
 				<string>1.0.0</string>
 				<key>UISupportedInterfaceOrientations~iphone</key>
@@ -44,7 +44,7 @@
 		</plist>
 	</ios>
 	<android xmlns:android="http://schemas.android.com/apk/res/android">
-		<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100000004">
+		<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100000005">
 		</manifest>
 	</android>
 	<modules>
