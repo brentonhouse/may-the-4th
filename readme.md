@@ -5,12 +5,12 @@
 
 > Dear Geek,   
 >    
-> I really want to try to add some 3d animations to my iOS and Android mobile app built with Titanium SDK.  Specifically, I am trying to recreate the Star Wars intro with the scrolling text for May the 4th.  I need it to work on both iOS and Android so any guidance you can give me would be very helpful!
+> I really want to try to add some 3D animations to my iOS and Android mobile app built with Titanium SDK.  Specifically, I am trying to recreate the Star Wars intro with the scrolling text for May the 4th.  I need it to work on both iOS and Android so any guidance you can give me would be very helpful!
 >      
 > &nbsp; &mdash; &nbsp; TITANIUM PADAWAN
 
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
+[![Alt text](https://img.youtube.com/vi/rwFergB-msE/0.jpg)](https://www.youtube.com/watch?v=rwFergB-msE)
 
 ### Solution
 
