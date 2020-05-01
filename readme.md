@@ -1,5 +1,5 @@
 
-# May the 4th
+# May the 4th be with you!
 
 ## How do I add the Star Wars intro to my iOS and Android mobile apps?
 
@@ -10,7 +10,15 @@
 > &nbsp; &mdash; &nbsp; TITANIUM PADAWAN
 
 
-[![Alt text](https://img.youtube.com/vi/rwFergB-msE/0.jpg)](https://www.youtube.com/watch?v=rwFergB-msE)
+### Blog post
+
+> Read the accompanying blog post that talks about using Titanium to build a Star Wars intro in a cross-platform native mobile app for iOS and Android.
+
+https://devblog.axway.com/
+
+#### Demo video of mobile app with Star Wars intro
+
+[![Click here to see video of mobile app in action!](https://img.youtube.com/vi/rwFergB-msE/0.jpg)](https://www.youtube.com/watch?v=rwFergB-msE)
 
 ### Solution
 
