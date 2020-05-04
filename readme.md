@@ -14,7 +14,8 @@
 
 > Read the accompanying blog post that talks about using Titanium to build a Star Wars intro in a cross-platform native mobile app for iOS and Android.
 
-https://devblog.axway.com/
+https://devblog.axway.com/mobile-apps/how-do-i-add-the-star-wars-intro-to-my-ios-and-android-mobile-apps
+
 
 #### Demo video of mobile app with Star Wars intro
 
